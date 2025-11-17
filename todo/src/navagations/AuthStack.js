@@ -10,8 +10,7 @@ const AuthStack = () => {
       initialRouteName="seovin"
       screenOptions={{
         headerTintColor: "blue",
-        headerBackTitie: "뒤로!",
-        headerShown: true, // 필수 적용
+        headerShown: true, 
       }}
     >
       <Stack.Screen name="seovin" component={SignInScreen} />
