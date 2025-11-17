@@ -13,7 +13,7 @@ const App = () => {
         <StatusBar style="dark" />
 
         <AuthStack />
-    
+
       </NavigationContainer>
     </UserProvider>
   );
